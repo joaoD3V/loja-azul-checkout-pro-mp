@@ -407,10 +407,10 @@
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
-"@types/mercadopago@1.5.4":
-  version "1.5.4"
-  resolved "https://registry.yarnpkg.com/@types/mercadopago/-/mercadopago-1.5.4.tgz#9e7b0ef8186b406793a7c567a229fa408b3e85bb"
-  integrity sha512-+QtYLRsJ9ROZILshGAkbYqlipM2oCTQLqwZHeER6utPVddBW9ZGzqg1JESf8Z5LdRuU17bmrPx3/DC7Iu4kc8Q==
+"@types/mercadopago@^1.5.8":
+  version "1.5.8"
+  resolved "https://registry.yarnpkg.com/@types/mercadopago/-/mercadopago-1.5.8.tgz#baa64963c8e563c62ecbfc9cb1546af52cf7b9c8"
+  integrity sha512-tamrRo4Z5IfLmWXDm72l7egxzQzhM5sJJtSH7n1z4EJsS71T0PddybGMZmMJp5GRiNJhbc9Ts6ZxIJ2jfxzM9Q==
 
 "@types/minimist@^1.2.0":
   version "1.2.2"
@@ -2949,14 +2949,14 @@ meow@^8.0.0:
     type-fest "^0.18.0"
     yargs-parser "^20.2.3"
 
-mercadopago@1.5.8:
-  version "1.5.8"
-  resolved "https://registry.yarnpkg.com/mercadopago/-/mercadopago-1.5.8.tgz#16ce8a61ad68e65d71c06bc7daf61241e1e0c3b8"
-  integrity sha512-N3mEL4CvTae4dJ23vDRzfvPQR0tkGdR3TMa8jqqTbNhdo33NGs3LCCw1O4z6flsI6yzE4UEHy+JtEjJp9qAZyg==
+mercadopago@^1.5.15:
+  version "1.5.15"
+  resolved "https://registry.yarnpkg.com/mercadopago/-/mercadopago-1.5.15.tgz#c43e2739feee774b4faa9296ee6e3ad1a0f1f9f8"
+  integrity sha512-FsZ31XVMCRcZRRzV07WwZL9R5xYxSLhOILxwSxGlIVfxHV3fSrRgVtERpzGxMpZNxwzv5JJ8ioaSnmwK0+DqtA==
   dependencies:
     ajv "^6.12.3"
     bluebird "3.4.7"
-    moment "^2.24.0"
+    moment "^2.29.4"
     request "^2.88.0"
     request-etag "2.0.3"
     uuid "3.0.1"
@@ -3037,7 +3037,7 @@ minimist@^1.2.0, minimist@^1.2.6:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
   integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
 
-moment@^2.24.0:
+moment@^2.29.4:
   version "2.29.4"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
   integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==

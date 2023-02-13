@@ -30,12 +30,12 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
       payer: {
         phone: {
           area_code: '11',
-          number: '123456789',
+          number: 123456789,
         },
         address: {
           zip_code: '65062-100',
           street_name: 'Falsa',
-          street_number: '123',
+          street_number: 123,
         },
         email: 'test_user_33467020@testuser.com',
         name: 'Lalo',
@@ -65,7 +65,6 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     };
 
     const response = await mercadopago.preferences.create(preference);
-    console.log(response.body);
     res.status(200).json({
       id: response.body.id,
       init_point: response.body.init_point,
