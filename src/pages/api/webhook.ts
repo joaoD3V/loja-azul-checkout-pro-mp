@@ -2,7 +2,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 const handler = (req: NextApiRequest, res: NextApiResponse) => {
-  console.log(req.body);
+  console.log('Webhook: ', req.body);
   res.status(200).json({ req: req.body });
 };
 

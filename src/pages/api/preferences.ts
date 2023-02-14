@@ -50,12 +50,15 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
       payment_methods: {
         excluded_payment_methods: [
           {
-            id: 'amex',
+            id: 'visa',
           },
         ],
         excluded_payment_types: [
           {
-            id: 'atm',
+            id: 'ticket',
+          },
+          {
+            id: 'bank_transfer',
           },
         ],
         installments: 6,
