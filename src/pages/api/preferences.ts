@@ -68,6 +68,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     };
 
     const response = await mercadopago.preferences.create(preference);
+    console.log('Preferences: ', response.body);
     res.status(200).json({
       id: response.body.id,
       init_point: response.body.init_point,
